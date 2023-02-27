@@ -4,7 +4,7 @@ import numpy as np ##For matrix manipulation
 
 def diagonalDifferente(matrix):
     '''
-    PYTHONIC WAY
+    PYTHONIC
     takes: matrix list of lists
     returns: absolute value of difference between sum of diagonal and sum of inverse diagonal
     '''
@@ -18,7 +18,8 @@ def diagonalDifferente(matrix):
 
 def diagonalDifferente2(matrix):
     '''
-    NON-PYTHONIC WAY
+    NON-PYTHONIC
+    NON-NUMPY
     takes: matrix list of lists
     returns: absolute value of difference between sum of diagonal and sum of inverse diagonal
     '''
