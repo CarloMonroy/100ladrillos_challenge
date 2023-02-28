@@ -2,7 +2,7 @@ import numpy as np ##For matrix manipulation
 
 
 
-def diagonalDifferente(matrix):
+def diagonalDifference(matrix):
     '''
     PYTHONIC
     takes: matrix list of lists
@@ -16,7 +16,7 @@ def diagonalDifferente(matrix):
     return abs(sum(diag)-sum(inverseDiag)) ##Return absolute value of difference
 
 
-def diagonalDifferente2(matrix):
+def diagonalDifference2(matrix):
     '''
     NON-PYTHONIC
     NON-NUMPY
@@ -31,8 +31,3 @@ def diagonalDifferente2(matrix):
 
     return abs(sum(diag)-sum(inverseDiag)) ##Return absolute value of difference
 
-
-array = [[11, 2, 4], [4, 5, 6], [10, 8, -12]]
-
-print(diagonalDifferente(array))
-print(diagonalDifferente2(array))
